@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fody", "Fody\Fody.csproj", "{8583E58A-14FA-4B6F-821E-324444FF9621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{2F0D9A60-97A7-4723-9F8B-80932C744498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C37B21B-C4FD-4DB3-B3CF-95DFA7C3DD5C}"
+	ProjectSection(SolutionItems) = preProject
+		FodyWeavers.xml = FodyWeavers.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8583E58A-14FA-4B6F-821E-324444FF9621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8583E58A-14FA-4B6F-821E-324444FF9621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8583E58A-14FA-4B6F-821E-324444FF9621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8583E58A-14FA-4B6F-821E-324444FF9621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0D9A60-97A7-4723-9F8B-80932C744498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0D9A60-97A7-4723-9F8B-80932C744498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0D9A60-97A7-4723-9F8B-80932C744498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0D9A60-97A7-4723-9F8B-80932C744498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7322D40-1C6A-4EE6-8FA9-8354D8462E44}
+	EndGlobalSection
+EndGlobal
