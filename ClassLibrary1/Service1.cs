@@ -9,9 +9,9 @@ namespace ClassLibrary1
     public class Service12
     {
         [MethodInterceptor]
-        public void Method1()
+        public void Method1(int a,string b , object c)
         {
-            throw new BaseException("error baseexception");
+           // throw new BaseException("error baseexception");
             Console.WriteLine("Method1");
             Console.ReadKey();
         }

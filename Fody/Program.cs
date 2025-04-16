@@ -11,9 +11,9 @@ namespace Fody
     {
         static void Main(string[] args)
         {
-            
+
             var service = new Service12();
-            service.Method1();
+            service.Method1(12,"ewe",new object());
         }
     }
 }
